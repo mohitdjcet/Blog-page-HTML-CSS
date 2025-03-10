@@ -1,0 +1,141 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Navigation Bar (with Logo & Nav Links) */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232326;
+    color: #fff;
+    padding-top: 10px 20px;
+    border-bottom: #333 solid 4px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+   text-decoration: underline;
+}
+
+/* Hero Section with BG image */
+
+#hero{
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 80px 20px;
+    height: 200px;
+}
+
+#hero h2{
+    font-size: 50px;
+}
+
+/*  Main Blog Page-Featured Blog Post (Title, Author, Date, Image, Content) and Sidebar with Recent Posts & Categories */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.blog-post{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 90%;
+}
+
+.blog-post img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.sidebar{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+}
+
+.sidebar h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Section with Social Links & Copywrite  */
+
+footer{
+    background-color: #9e9999;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
